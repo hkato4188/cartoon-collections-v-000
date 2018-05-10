@@ -1,15 +1,8 @@
-
-
-
-
-
-
-
-
-
+require 'pry'
 
 <<<<<<< HEAD
 def roll_call_dwarves(dwarves)
+binding.pry
   dwarves.each.with_index(1) do |dwarf, index|
     puts "#{index}. #{dwarf}"
   end
