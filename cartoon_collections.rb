@@ -2,7 +2,7 @@ require 'pry'
 
 def roll_call_dwarves(array)
 binding.pry
-  array
+  puts "#{array}"
 end
 
 
