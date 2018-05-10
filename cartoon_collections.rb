@@ -1,8 +1,7 @@
+def roll_call_dwarves(array)
+  puts "#{array}"
 
-
-
-
-
+end
 
 
 
