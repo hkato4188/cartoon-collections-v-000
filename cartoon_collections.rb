@@ -1,25 +1,19 @@
-require 'pry'
 
-def roll_call_dwarves(array)
-binding.pry
-  puts "#{array}"
+
+
+
+
+
+
+
+
+
+<<<<<<< HEAD
+def roll_call_dwarves(dwarves)
+  dwarves.each.with_index(1) do |dwarf, index|
+    puts "#{index}. #{dwarf}"
+  end
 end
-
-
-
-
-
-
-
-
-
-
-# <<<<<<< HEAD
-# def roll_call_dwarves(dwarves)
-#   dwarves.each.with_index(1) do |dwarf, index|
-#     puts "#{index}. #{dwarf}"
-#   end
-# end
 #
 # # def roll_call_dwarves(roll_call)
 # #   i = 0
